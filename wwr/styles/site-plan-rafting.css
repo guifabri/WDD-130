@@ -20,7 +20,7 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Arial Black';
-    color: var(--primary-color)
+    color: var(--accent2-color)
 }
 header {
     padding: 20px;
