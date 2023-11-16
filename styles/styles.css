@@ -1,3 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* class selectors */
+.box {
+    margin:  1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+aside {
+    width: 20rem;
+    text-align: center;
+}
+
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -23,7 +42,11 @@ p {
 main {
     max-width: 840px;
 }
+main img {
+    float: right;
+}
 aside {
+    position:relative;
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -32,6 +55,11 @@ aside {
     color: #333;
     text-align: center;
 
+}
+aside h2 {
+    position:absolute;
+    top: 47px;
+    left: 150px;
 }
 aside img {
     width: 200px;
