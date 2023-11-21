@@ -9,18 +9,18 @@
 --heading-font: 'Amaranth', sans-serif;
 --paragraph-font: 'Amaranth', sans-serif;
 
---nav-background-color:var(--accent1-color)
---nav-link-color:var(--accent2-color)
---nav-hover-link-color:var(--primary-color)
---nav-hover-background-color:var(--secondary-color)
+--nav-background-color:var(--accent1-color);
+--nav-link-color:var(--accent2-color);
+--nav-hover-link-color:var(--primary-color);
+--nav-hover-background-color:var(--secondary-color);
 }
 
 body {
-    font-family: var(--heading-font)
+    font-family: var(--heading-font);
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Arial Black';
-    color: var(--accent2-color)
+    color: var(--accent2-color);
 }
 header {
     padding: 20px;
