@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Secular+One&display=swap');
+
+
+:root {
+    --primary-color: #d6fff6ff;
+    --secondary-color: #4dccbdff;
+    --accent1-color: rgb(209, 221, 229);
+    --accent2-color: #231651ff;
+    
+    --heading-font: 'Amaranth', sans-serif;
+    --paragraph-font: 'Amaranth', sans-serif;
+    
+    --nav-background-color:var(--accent1-color);
+    --nav-link-color:var(--accent2-color);
+    --nav-hover-link-color:var(--primary-color);
+    --nav-hover-background-color:var(--secondary-color);
+    --font-color:var(--accent2-color);
+    }
+* {
+    text-decoration: none;
+}
+.hero {
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero h1 {
+    position: absolute;
+}
+.hero article {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 890px;
+    background-color: #48484881;
+    color: white;
+    width: 80%;
+    text-align: center;
+
+}
+.hero article img {
+    width: 200px;
+    height: 150px;
+    float: right;
+}
+.hero h1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 590px;
+    background-color: #48484881;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+section img {
+    display: block;
+    width: 400px;
+    height:auto;
+    margin-top: 8px;
+}
+footer img {
+    width: 50px;
+    height: auto;
+
+}
