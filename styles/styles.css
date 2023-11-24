@@ -34,7 +34,7 @@ nav a {
 }
 h1 {
     color: steelblue;
-    border-bottom: 1px;
+    border-bottom: 1px solid blue;
 }
 img {
     width: 150px;
