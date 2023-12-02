@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Secular+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  /*  border: 1px solid blue;*/
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    color: #333;
+    background-color: #f7f7f7;
+}
+head {
+    margin: auto;
+    width: 650px;
+}
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: rgb(8, 8, 8);
+    text-align: center;
+}
+form {
+    width: 650px;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid #333;
+    border-radius: 0.5rem;
+    background-color: #bebcbc;
+    display: grid;
+}
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(16, 16, 135);
+    padding: 1rem;
+}
