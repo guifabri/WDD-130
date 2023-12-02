@@ -9,16 +9,16 @@
 <body>
   <h1>Basic HTML and CSS Quiz</h1>
   <form action="/submit-quiz" method="post">
-    <div>
-      <label for="q1">What does HTML stand for?</label>
+    <div class="form-item row2">
+      <label for="q1">1. What does HTML stand for?</label>
       <input type="text" id="q1" name="q1">
     </div>
-    <div>
-      <label for="q2">Explain the purpose of CSS in web development (short answer)</label>
+    <div class="form-item row2">
+      <label for="q2">2. Explain the purpose of CSS in web development (short answer)</label>
       <textarea id="q2" name="q2"rows="4" cols="50"></textarea>
     </div>
-    <div>
-      <label for="q3">What is the most appropriate tag to define the structure of your HTML document?</label>
+    <div class="form-item row2">
+      <label for="q3">3. What is the most appropriate tag to define the structure of your HTML document?</label>
       <select id="q3" name="q3">
         <option value="" selected disable>Choose One</option>
         <option value="div">div</option>
@@ -26,11 +26,11 @@
         <option value="article">DOCTYPE html</option>
       </select>
     </div>
-    <div>
-      <label for="q4">How many programming languages are used in web development? (Enter a number)</label>
+    <div class="form-item row2">
+      <label for="q4">4. How many programming languages are used in web development? (Enter a number)</label>
       <input type="number" id="q4" name="q4">
     </div>
-    <div>
+    <div class="form-item column2">
       <button type="submit">Submit Quiz</button>
     </div>
   </form>

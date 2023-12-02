@@ -7,6 +7,8 @@
   /*  border: 1px solid blue;*/
 }
 body {
+    display: grid;
+    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.2em;
     color: #333;
@@ -17,24 +19,90 @@ head {
     width: 650px;
 }
 h1 {
-    margin: 1rem;
+    margin: 2rem;
     font-size: 1.5em;
     color: rgb(8, 8, 8);
     text-align: center;
 }
 form {
     width: 650px;
-    margin: auto;
+    margin: 2rem;
     padding: 1rem;
-    border: 1px solid #333;
+    border: 5px solid #333;
     border-radius: 0.5rem;
-    background-color: #bebcbc;
+    background-color: #d7d3d3;
     display: grid;
+    grid-template-columns: 1fr;
+
 }
+
 fieldset {
     display: grid;
     grid-gap: .5rem;
-    margin: 1rem;
+    margin: 10rem;
     border: 1px solid rgb(16, 16, 135);
     padding: 1rem;
+}
+legend {
+    padding: 0.5rem;
+    color: black;
+    font-size: 1.3em;
+}
+label, input, button,select, textarea {
+    font-family: roboto, arial, sans-serif;
+}
+label {
+    width: 100%;
+    text-align: left;
+    padding-right: 1rem;
+}
+input [type="checkbox"], select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+button {
+    width: 100%;
+    background-color: #0078d0;
+    border: 0;
+    border-radius: 56px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    outline: 0;
+    padding: 16px 21px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+button:hover {
+    box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+    transform: scale(1.05);
+}
+footer {
+    margin: 5rem auto;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 2.5rem;
 }
