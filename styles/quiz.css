@@ -4,9 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: 100%;
   /*  border: 1px solid blue;*/
 }
 body {
+    width: 80%;
     display: grid;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
