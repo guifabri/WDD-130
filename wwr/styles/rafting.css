@@ -19,6 +19,7 @@
     }
 * {
     text-decoration: none;
+   
 }
 .hero {
     position: relative;
@@ -121,9 +122,31 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
-main p {
-    font-family: Arial, Helvetica, sans-serif;
+
+main img {
+    width: 250px;
 }
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin: 5rem 0;
+}
+.information {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.employ {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 .history {
     display: grid;
     grid-template-rows: 4rem 1fr 30px;
@@ -164,7 +187,7 @@ figcaption {
     -ms-border-radius: 0px 0px 20px 20px;
     -o-border-radius: 0px 0px 20px 20px;
 }
-figure {
+figure, iframe {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border-radius: 20px 20px 20px 20px;
     margin: auto 2rem;
