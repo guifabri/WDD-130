@@ -7,7 +7,7 @@
     <meta name="description" content="Eric Scala BYU Idaho student Web Fundamentals course contact.html">
     <meta name="author" content="Erick Scala">
     <link rel="stylesheet" href="styles/rafting.css">
-    <link rel="stylesheet" href="../wwr/styles/#form.css">
+
   </head>
   <body>
     <header>
@@ -33,24 +33,29 @@
         </div>
       </div>
       <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13292.190824865154!2d-72.45032006379459!3d7.916785845413801!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sve!4v1701565155520!5m2!1ses!2sve" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <form action="/submit-quiz" method="post">
-        <label for="q1"><span>1.</span> What does HTML stand for?</label>
-        <input type="text" id="q1" name="q1">
-  
-        <label for="q2"><span>2.</span> Explain the purpose of CSS in web development (short answer)</label>
-        <textarea id="q2" name="q2" rows="4" cols="50"></textarea>
-      
-        <label for="q3"><span>3.</span> What is the most appropriate tag to define the structure of your HTML document?</label>
-        <select id="q3" name="q3">
-          <option value="" selected disabled>Choose One</option>
-          <option value="div">div</option>
-          <option value="section">section</option>
-          <option value="article">DOCTYPE html</option>
-        </select>
-      
-        <label for="q4"><span>4.</span> How many programming languages are used in web development? (Enter a number)</label>
-        <input type="number" id="q4" name="q4">
-        <button type="submit">Submit Quiz</button>
+      <form action="/submit-quiz" method="post" class="form">
+        <label for="fullname"><span>*</span>Enter your full name</label>
+        <input type="text" id="fullname" name="fullname" required>
+        <label for="email"><span>*</span>Enter your Email Address</label>
+        <input type="email" id="email" name="email" required>
+      <div>
+        <label><span>*</span>Choose your purpose</label>
+        <br><br>
+      <input type="radio" id="generalinquiry" name="purpose" value="generalinquiry" required>
+      <label for="generalinquiry">General Inquiry</label><br>
+      <input type="radio" id="reservationquestion" name="purpose" value="reservationquestion">
+      <label for="reservationquestion">Reservation Question</label><br>
+      <input type="radio" id="websitesuggestion" name="purpose" value="websitesuggestion">
+      <label for="websitesuggestion">Website Suggestion</label>
+      </div>
+        <label for="message">Explain your purpose</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+        <div>
+        <input type="checkbox" id="subscribe" name="subscribe" value="subscribe" checked>
+        <label for="subscribe"> Please subscribe me to the monthly newsletter</label>
+        </div>
+        <span class="warn">Fields marked with an asterisk (*) are required </span>
+        <button type="submit">Send</button>
     </form>
     </main>
     
