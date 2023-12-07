@@ -126,12 +126,12 @@ nav a:hover {
 }
 
 
-main {
+.all {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
-    align-items: center;
-    margin: 5rem 0;
+    align-items: start;
+    margin: 1rem 0;
 }
 .information {
     display: grid;
@@ -139,13 +139,26 @@ main {
     justify-items: center;
     align-items: center;
 }
+.information iframe {
+    grid-row: 1;
+    margin-top: 1rem;
+}
+.information div, iframe {
+    align-self: flex-start;
+}
+.information div {
+    margin-top: 2rem;
+}
 .employ {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: 100%;
+    width: 60%;
+}
+.employ figure {
+    margin-top: 1rem;
 }
 .employ img {
     width: 100%;
@@ -200,8 +213,7 @@ figure, iframe, .form {
 }
 
 .form {
-    grid-column: 1 / 3;
-    margin: 2rem 0;
+    margin: 1rem 0;
     padding: 1rem;
     border: 5px solid #333;
     border-radius: 0.5rem;
