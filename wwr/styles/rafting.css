@@ -11,9 +11,9 @@
     --heading-font: 'Amaranth', sans-serif;
     --paragraph-font: 'Amaranth', sans-serif;
     --nav-background-color:var(--primary-color);
-    --nav-link-color:var(--secondary-color);
+    --nav-link-color:var(--accent1-color);
     --nav-hover-link-color:var(--accent2-color);
-    --nav-hover-background-color:var(--secondary-color);
+    --nav-hover-background-color:var(--primary-color);
     --font-color:var(--accent1-color);
     }
 * {
@@ -220,6 +220,7 @@ figure {
     background-color: #d7d3d3;
     display: grid;
     grid-template-columns: 1fr;
+    
 
 }
 .form * {
