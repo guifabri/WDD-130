@@ -131,6 +131,7 @@ nav a:hover {
     justify-items: center;
     align-items: start;
     margin: 1rem 0;
+
 }
 .information {
     display: grid;
@@ -142,6 +143,11 @@ nav a:hover {
 .address {
     margin-top: .5rem;
     align-self: start;
+}
+iframe {
+    height: 400px;
+    width: 100%;
+
 }
 .employ {
 
