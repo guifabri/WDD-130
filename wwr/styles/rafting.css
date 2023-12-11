@@ -30,6 +30,11 @@
     width: 100%;
     height: auto;
 }
+.index {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 .hero h1 {
     position: absolute;
 }
@@ -220,8 +225,6 @@ figure {
     background-color: #d7d3d3;
     display: grid;
     grid-template-columns: 1fr;
-    
-
 }
 .form * {
     padding: .5rem;
